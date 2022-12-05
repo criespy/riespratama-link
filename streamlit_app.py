@@ -16,7 +16,7 @@ st.info('App Developer and Tech Enthusiast who love coffee, It does not always t
 icon_size = 20
 
 st_button('youtube', 'https://www.youtube.com/@createwitharies ', 'Create With Aries YouTube channel', icon_size)
-st_button('ig', 'https://instagram.com/riespratama', 'My Personal Instagram', icon_size)
+st_button('instagram', 'https://instagram.com/riespratama', 'My Personal Instagram', icon_size)
 st_button('medium', 'https://riespratama.com', 'Read my Blogs', icon_size)
 st_button('twitter', 'https://twitter.com/riespratama/', 'Follow me on Twitter', icon_size)
 st_button('linkedin', 'https://www.linkedin.com/in/aries-wibowo/', 'Follow me on LinkedIn', icon_size)
