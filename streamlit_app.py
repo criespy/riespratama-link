@@ -11,7 +11,7 @@ col2.image(Image.open('dp.png'))
 
 st.header('Aries P. Wibowo')
 
-st.info('App Developer and Tech Enthusiast who love coffee, It does not always take sophisticated technology to make life better.')
+st.info('App Developer and Tech Enthusiast who love coffee.<br> It does not always take sophisticated technology to make life better.')
 
 icon_size = 20
 
