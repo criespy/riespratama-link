@@ -1,67 +1,25 @@
-# Welcome to Streamlit `links page`
+# 💫 About Me:
+I'm developing applications, specifically for web-based app.<br>I also create corporate profiles and landing pages for businesses.<br>Currently I'm developing a course for anyone who want to learn building web-based app from basic<br><br>Making good user interface is tiresome, but I'm having fun with it.<br><br>My long-term journey was in the manufacturing industry, which forged my expertise in on-premise and cloud infrastructure, and understanding of data security.
 
-> A Streamlit app that you can build for free to store all your personal links that is similar in functionality to that of [Linktr.ee](https://linktr.ee/).
 
-<img src="23F54497-245E-413F-99C7-F3E295E4EA13.png" width="350">
+## 🌐 Socials:
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/riespratama) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/aries-wibowo) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@riespratama) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@criespy) 
 
-# Demo app
+# 💻 Tech Stack:
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Sever-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![Gimp Gnu Image Manipulation Program](https://img.shields.io/badge/Gimp-657D8B?style=for-the-badge&logo=gimp&logoColor=FFFFFF) ![Inkscape](https://img.shields.io/badge/Inkscape-e0e0e0?style=for-the-badge&logo=inkscape&logoColor=080A13) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=criespy&theme=default&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=criespy&theme=default&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=criespy&theme=default&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chanin.streamlitapp.com/)
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=criespy&theme=juicyfresh&no-frame=true&no-bg=true&margin-w=4)
 
-# Setting up
+---
+[![](https://visitcount.itsvg.in/api?id=criespy&icon=0&color=12)](https://visitcount.itsvg.in)
 
-Getting your own Streamlit `links page` up and running is really easy, just follow the following 3 steps:
+  ## 💰 You can help me by Donating
+  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/riespratama) 
 
-**Step 1**. [Click here](https://github.com/streamlit/links/generate) to generate a copy of this repository. Next, name your new repository to anything you'd like except for `your username`.github.io
-
-**Step 2**. Customize the contents of the newly generated `links page` by editing the `streamlit_app.py` file:
-
-```python
-import streamlit as st
-from st_functions import st_button, load_css
-from PIL import Image
-
-load_css()
-
-col1, col2, col3 = st.columns(3)
-col2.image(Image.open('dp.png'))
-
-st.header('Chanin Nantasenamat, Ph.D.')
-
-st.info('Developer Advocate, Content Creator and ex-Professor with an interest in Data Science and Bioinformatics')
-
-icon_size = 20
-
-st_button('youtube', 'https://youtube.com/dataprofessor', 'Data Professor YouTube channel', icon_size)
-st_button('youtube', 'https://youtube.com/codingprofessor', 'Coding Professor YouTube channel', icon_size)
-st_button('medium', 'https://data-professor.medium.com/', 'Read my Blogs', icon_size)
-st_button('twitter', 'https://twitter.com/thedataprof/', 'Follow me on Twitter', icon_size)
-st_button('linkedin', 'https://www.linkedin.com/in/chanin-nantasenamat/', 'Follow me on LinkedIn', icon_size)
-st_button('newsletter', 'https://sendfox.com/dataprofessor/', 'Sign up for my Newsletter', icon_size)
-st_button('cup', 'https://www.buymeacoffee.com/dataprofessor/', 'Buy me a Coffee', icon_size)
-```
-
-There are 3 key information that you can modify:
-1. `st.header(A)` is used for specifying your name in place of **A**.
-Example:
-```python
-st.header('Chanin Nantasenamat, Ph.D.')
-```
-
-2. `st.info(B)` is used for speciying a quick description about who you are, what you do, etc. in place of **B**.
-Example:
-```python
-st.info('Developer Advocate, Content Creator and ex-Professor with an interest in Data Science and Bioinformatics')
-```
-
-3. `st.button(D, E, F, G)` is a custom function for creating link buttons where **D** represents the icon to display (use `youtube` if the play button is to be displayed), **E** represents the URL, **F** represents the message to display on the clickable button and **G** represents the icon size.
-Example:
-```python
-st_button('youtube', 'https://youtube.com/dataprofessor', 'Data Professor YouTube channel', icon_size)
-```
-
-**Step 3**. Deploy to [Streamlit Cloud](https://streamlit.io/cloud). Log-in and click on the **New app** button. Choose the newly generated repo from Steps 1-2. Finally click on the **Deploy!** button. 
-
-After a few moments your new `links page` should be accessible at `https://share.streamlit.io/{your-username}/{newly-created-repo}`
-
-In an upcoming release of Streamlit Cloud, you will be able to customize the URL address to `https://{custom-name--here}.streamlitapp.com/` such as the one that I've created at https://chanin.streamlitapp.com/
+  
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
